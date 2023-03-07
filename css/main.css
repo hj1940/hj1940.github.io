@@ -77,7 +77,7 @@ body{
 
 
 
-/* 청첩장 문구 */
+/* 문구 */
 .text b{
     font-size: 22px;
 }
@@ -115,25 +115,6 @@ body{
 
 
 
-/* 신랑/신부에게 연락하기 */
-.call-info{
-    margin: 50px 0 30px;
-    padding: 20px 100px;
-}
-.call-info div{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-.call-info span{
-    display: flex;
-}
-
-
-
-
 /* 오시는 길 */
 .location {
     padding: 50px;
@@ -166,63 +147,6 @@ body{
 .location ul li p{
     font-weight: 300;
 }
-
-
-
-/* 마음 전하기 */
-
-.cong-money{
-    padding: 80px 0;
-}
-.cong-money b{
-    font-size: 22px;
-}
-.cong-money .account{
-    background-color: #fff;
-    border-radius: 40px;
-    width: 350px;
-    margin: 30px auto;
-    padding: 20px 0;
-}
-
-.cong-money span{
-    font-size: 14px;
-    text-decoration: underline;
-    text-underline-position: under;
-    color: #757575;
-    cursor: pointer;
-}
-
-
-
-/* footer */
-footer{
-    background-color: #464646;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 30px 50px;
-    text-align: left;
-    font-size: 14px;
-}
-footer ul li{
-    color: #fff;
-}
-footer ul li+li{
-    margin-top: 10px;
-
-}
-footer p {
-    color: #fff;
-    text-align: right;
-}
-footer span{
-    font-family: 'Ovo', serif;
-    color: #fff;
-    font-size: 20px;
-}
-
-
 
 
 /* popup */
