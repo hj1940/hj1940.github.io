@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #202020;
+    border: none;
+    outline: none;
+    resize: none;
+}
+body{
+    width: 540px;
+    margin : 0 auto;
+    position: relative;
+    font-family: 'Gowun Batang', serif;
+}
+.noto{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+.bar{
+    width: 40px;
+    height: 2px;
+    background-color: #FF9900;
+    margin: 40px auto;
+}
+.bar-horz{
+    width: 1px;
+    height: 110px;
+    background-color: #939393;
+    margin: 60px auto;
+}
+.color-bg{
+    background-color: #FFF5EC;
+}
+.call{
+    background: url('../img/phone-call.png') no-repeat center;
+    background-size: 24px 
+}
+.kakao{
+    background: url('../img/kakao-talk.png') no-repeat center;
+    background-size: 28px 
+}
+.call, .kakao{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+/* 상단 정보 */
+
+.info .names{
+    font-size: 26px;
+}
+.info p{
+    font-size: 20px;
+}
+
+
+
+/* 메인 이미지 */
+.main-img{
+    margin: 60px 0;
+}
+
+
+
+/* 청첩장 문구 */
+.text b{
+    font-size: 22px;
+}
+.text p{
+    font-size: 20px;
+}
+
+
+
+
+/* 사진첩 */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.gallery div{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 8px;
+}
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.gallery p{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+/* 신랑/신부에게 연락하기 */
+.call-info{
+    margin: 50px 0 30px;
+    padding: 20px 100px;
+}
+.call-info div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.call-info span{
+    display: flex;
+}
+
+
+
+
+/* 오시는 길 */
+.location {
+    padding: 50px;
+}
+.location > b{
+    font-size: 22px;
+}
+.location .map{
+    margin: 50px auto;
+    width: 430px;
+    height: 300px;
+    background-color:#fff;
+}
+.location > p{
+    font-size: 20px;
+}
+.location ul{
+    margin: 30px auto 0;
+    width: 350px;
+}
+.location ul li{
+    display: flex;
+    margin-bottom: 15px;
+}
+.location ul li span{
+    width: 100px;
+    min-width: 100px;
+    text-align: left;
+}
+.location ul li p{
+    font-weight: 300;
+}
+
+
+
+/* 마음 전하기 */
+
+.cong-money{
+    padding: 80px 0;
+}
+.cong-money b{
+    font-size: 22px;
+}
+.cong-money .account{
+    background-color: #fff;
+    border-radius: 40px;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+.cong-money span{
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #757575;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #464646;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 50px;
+    text-align: left;
+    font-size: 14px;
+}
+footer ul li{
+    color: #fff;
+}
+footer ul li+li{
+    margin-top: 10px;
+
+}
+footer p {
+    color: #fff;
+    text-align: right;
+}
+footer span{
+    font-family: 'Ovo', serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+/* popup */
+.popup-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #202020a8;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    
+}
+.popup{
+    width: 450px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.select-img{
+    width: 450px;
+    object-fit: contain;
+}
+.close-btn{
+    width: 35px;
+    height: 35px;
+    background: url('../img/close.png') no-repeat center;
+    background-size: 28px;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+
